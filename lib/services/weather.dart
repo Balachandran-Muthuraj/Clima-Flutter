@@ -1,7 +1,7 @@
 import 'package:clima/services/location.dart';
 import 'package:clima/services/networking.dart';
 class WeatherModel {
-  static const  apikey='14fa33ca0d67f9d78024b535711384a0';
+  static const  apikey='**************************************';
   String url;
   double latitude,longitude;
   Future<dynamic> GetlocationWeather()async
